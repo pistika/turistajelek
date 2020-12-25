@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Túristajelek, Hungarian Trail Signs</title>
+	<meta name="description"
+	      content="Túristajelek, Túristajelzések, túra jel festések. CSS file a könnyen html-be illeszthető jelzésekért.">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="assets/css/bulma.min.css "/>
+	<link rel="stylesheet" href="assets/css/preview.css"/>
+	<link rel="stylesheet" href="build/turistajelek-latest.min.css"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+
+<section class="is-dark hero" style="background-color: white;">
+	<div class="hero-body">&nbsp;</div>
+</section>
+
+<section class="is-dark hero" style="background-color: rgb(0,59,128);">
+	<div class="hero-body">
+		<div class="container has-text-centered has-text-white">
+			<h1 class="title">Túristajelek, Hungarian Trail Signs</h1>
+			<h2 class="subtitle">Add trail signs to your html content. These are small inline SVG-s that are added to
+				your content with a single CSS file.</h2>
+			<a target="_blank" href="https://github.com/pistika/turistajelek"><img src="assets/svg/logo.svg" alt="Logo"
+			                                                                       width="200"/></a><br/><br/>
+			<p>Just add a few classes and have all the signs in all the colors that you'd ever need.</p>
+		</div>
+	</div>
+</section>
+
+<section style="padding: 50px 0; font-size: 1.1em;">
+	<div class="container">
+		<div class="row">
+			<div class="columns is-centered">
+				<div class="column is-two-thirds">
+					<p class="pluspadding">I wanted to use trail signs here and there so I traced the signs into SVGs.
+						Then came the idea, why not make a little fake font-set like thing so that I can use them in web
+						projects.<br/>So, here they are...</p>
+					<pre style="font-size: 0.8em;"><strong>Usage</strong>
+
+1. Download the *-latest.css or *-latest.min.css file from <a href="https://github.com/pistika/turistajelek">GitHub</a>.
+2. Link it in your &lt;head&gt;
+3. Use the classes below
+4. Profit</pre>
+					<p class="pluspadding">A single CSS file that contains the SVG text content and uses the :before
+						pseudo selector and the content property to insert these SVGs. No further requests to file
+						anywhere.<br/>All SVGs are white and have negative space / cutout in them, making some parts
+						transparent. These holes reveal the background color underneath, so any color can be used to
+						insert these signs, no need to have multiple versions of the same sign just to have different
+						colors.</p>
+
+					<pre style="font-size: 0.8em;"><strong>Example</strong>
+
+This is a basic example, it will insert a blue line/stripe sign where it is.
+
+<code><strong>&lt;i class="jel jel-line jel-color-blue"&gt;&lt;/i&gt; -></strong> <i
+	class="jel jel-line jel-color-blue"></i></code>
+
+The basic code must contain 3 class names:
+- jel
+    This is always required
+
+- jel-color-{COLOR} or jel-szin-{COLOR}
+    Ready to use color names:
+        blue / kék / kek - rgb(0, 59, 128)
+        red / piros - rgb(199, 23, 18)
+        yellow / sarga / sárga - rgb(252, 184, 33)
+        green / zold / zöld - rgb(36, 145, 64)
+        purple / lila - rgb(125, 31, 122)
+        black / fekete - rgb(0, 0, 0)
+        grey / gray / szurke / szürke - rgb(128, 128, 128)
+
+- jel-{SIGNNAME}
+    All signs and names are listed at the end of the page</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section style="padding: 50px 0;">
+	<div class="container">
+		<div class="row">
+			<div class="columns is-centered is-multiline">
+				<div class="column is-full has-text-centered">
+					<span class="subtitle is-2">Any size</span>
+				</div>
+				<div class="column is-half">
+					<blockquote style="font-size: 16px;" class="content is-small">Tudtam, hogy a mai alkalommal sok
+						különböző jelzésen kell mennem, <i class="jel jel-vonal jel-szin-kek"></i>, <i
+							class="jel jel-kereszt jel-szin-kek"></i>, <i class="jel jel-csucs jel-szin-zold"></i> és
+						társai, de ennyi mindenre nem számítottam. Találkoztam életem legkisebb kör jelzésével<i
+							class="jel jel-kor jel-szin-piros jel-kicsi"></i> és a legnagyobb veszélyt jelző
+						háromszöggel is<i class="jel jel-veszely jel-szin-piros jel-lg"></i> egy sorompó tartó beton
+						tömbön.<br/>Szerintem még sose volt ennyire kacskaringós útam, ennyire változatos
+						felfestésekkel, még egy <i class="jel jel-mz jel-szin-sarga"></i>-t is láttam az egyik
+						elágazásnál.
+					</blockquote>
+
+				</div>
+			</div>
+		</div>
+		<br/>
+		<hr/>
+		<br/>
+		<div class="row">
+			<div class="columns is-centered is-multiline">
+				<div class="column is-half">
+					<blockquote style="font-size: 20px;" class="content is-large">Tudtam, hogy a mai alkalommal sok
+						különböző jelzésen kell mennem, <i class="jel jel-vonal jel-szin-kek"></i>, <i
+							class="jel jel-kereszt jel-szin-kek"></i>, <i class="jel jel-csucs jel-szin-zold"></i> és
+						társai, de ennyi mindenre nem számítottam. Találkoztam életem legkisebb kör jelzésével<i
+							class="jel jel-kor jel-szin-piros jel-kicsi"></i> és a legnagyobb veszélyt jelző
+						háromszöggel is<i class="jel jel-veszely jel-szin-piros jel-lg"></i> egy sorompó tartó beton
+						tömbön.<br/>Szerintem még sose volt ennyire kacskaringós útam, ennyire változatos
+						felfestésekkel, még egy <i class="jel jel-mz jel-szin-sarga"></i>-t is láttam az egyik
+						elágazásnál.
+					</blockquote>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<hr/>
+		<br/>
+		<div class="row">
+			<div class="columns is-centered is-multiline">
+				<div class="column is-half">
+					<blockquote style="font-size: 28px;" class="content is-large">Tudtam, hogy a mai alkalommal sok
+						különböző jelzésen kell mennem, <i class="jel jel-vonal jel-szin-kek"></i>, <i
+							class="jel jel-kereszt jel-szin-kek"></i>, <i class="jel jel-csucs jel-szin-zold"></i> és
+						társai, de ennyi mindenre nem számítottam. Találkoztam életem legkisebb kör jelzésével<i
+							class="jel jel-kor jel-szin-piros jel-kicsi"></i> és a legnagyobb veszélyt jelző
+						háromszöggel is<i class="jel jel-veszely jel-szin-piros jel-lg"></i> egy sorompó tartó beton
+						tömbön.<br/>Szerintem még sose volt ennyire kacskaringós útam, ennyire változatos
+						felfestésekkel, még egy <i class="jel jel-mz jel-szin-sarga"></i>-t is láttam az egyik
+						elágazásnál.
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section style="padding: 50px 0;">
+	<div class="container">
+		<div class="row">
+			<div class="columns is-centered is-multiline">
+				<div class="column is-full has-text-centered">
+					<span class="subtitle is-2">Any color</span>
+				</div>
+				<div class="column is-one-third">
+					<p style="font-size: 18px;" class="content is-medium">Itt séta közben találtam egy nagyon furcsa
+						rózsíszín sávot <i style="background-color: deeppink;" class="jel jel-sav"></i> (<i><b>style="background-color:
+							deeppink;"</b></i>), ami nem tudom honnan jött és mit jelent. Mi lesz a következő,
+						valamilyen színátmenetes festés <i
+							style="background-image: linear-gradient(45deg, rgba(255,0,0,1) 33%, rgba(31,255,0,1) 50%, rgba(0,31,255,1) 66%);"
+							class="jel jel-telep"></i> (<i><b>background-image: linear-gradient(45deg, rgba(255,0,0,1)
+							33%, rgba(31,255,0,1) 50%, rgba(0,31,255,1) 66%);</b></i>) amit 3-4 különböző alkalommal
+						kell felfesteni sínenként egyesével, hogy szép legyen? Vagy kitalálnak valamilyen átlátszót?<i
+							class="jel jel-forras" style="background-color: rgba(0,0,0,0.5);"></i>(<i><b>style="background-color:
+							rgba(0,0,0,0.5);</b></i>)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section style="padding: 50px 0; font-size: 1.25em;">
+	<div class="container">
+		<div class="row">
+			<div class="columns is-centered">
+				<div class="column is-two-thirds">
+<pre style="font-size: 0.75em;"><strong>Modifiers</strong>
+
+- jel-nincsarnyek / jel-noshadow (class)
+This will remove the CSS dropshadow from the sign
+
+- jel-keret / jel-border (class)
+This will add a smell color matching border to the sign
+
+- jel-nincsterkoz / jel-nowhitespace (class)
+Removes the spacing before and after the sign
+
+- jel-kicsi / jel-sm / jel-small (class)
+Smaller version. This will make the height 0.75em tall.
+
+- jel-nagy / jel-big / jel-lg / jel-large (class)
+Bigger version. This will make it 1.5em tall.
+
+- any background CSS style property (attribute)
+    style="background-color: teal;"
+    style="background-color: rgba(12, 99, 200, 0.89);"
+    style="background-image: linear-gradient(red, yellow);"
+    Any valid CSS property value pair should work</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section style="padding: 50px 0;">
+	<div class="container">
+		<div class="row">
+			<div class="columns is-multiline">
+				<div class="column is-full has-text-centered">
+					<span class="subtitle is-2">All variants and names</span>
+				</div>
+				<div class="column has-text-centered">
+					<div class="panel">
+						<div style="padding: 30px;">
+							<h2 class="subtitle is-4"><span>Default</span></h2>
+							<p id="plain" class="sign-container has-text-centered"></p>
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="panel">
+						<div style="padding: 30px;">
+							<h2 class="subtitle is-4"><span>No shadow</span></h2>
+							<p id="noshadow" class="sign-container has-text-centered"></p>
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="panel">
+						<div style="padding: 30px;">
+							<h2 class="subtitle is-4"><span>With border</span></h2>
+							<p id="bordered" class="sign-container has-text-centered"></p>
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="panel">
+						<div style="padding: 30px;">
+							<h2 class="subtitle is-4"><span>Without spacing</span></h2>
+							<p id="nopadding" class="sign-container has-text-centered"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="is-dark hero" style="background-color: rgb(0,59,128);">
+	<div class="hero-body has-text-centered">
+		<a target="_blank" href="https://github.com/pistika/turistajelek"><img src="assets/svg/logo.svg" alt="Logo" width="50"/></a><br/>
+		<a style="color: white;" target="_blank" href="https://github.com/pistika/turistajelek">https://github.com/pistika/turistajelek</a><br/>
+        <span>pistika/turistajelek is licensed under the GNU Affero General Public License v3.0. See `LICENSE` on <a style="color: white;" target="_blank" href="https://github.com/pistika/turistajelek/blob/main/LICENSE">GitHub</a> for more information.</span>
+	</div>
+</section>
+
+<script type="text/javascript">
+    const colors = ["kek","piros","sarga","zold","lila","fekete","szurke"];
+
+    const renderNodes = function (signs, colors) {
+        var plain = document.getElementById("plain");
+        var noshadow = document.getElementById("noshadow");
+        var bordered = document.getElementById("bordered");
+        var nopadding = document.getElementById("nopadding");
+
+        signs.forEach(function (v) {
+            let block = document.createElement("div");
+            let newText = document.createTextNode(".jel-" + v);
+            block.appendChild(newText);
+            block.appendChild(document.createElement("br"));
+
+            let block2 = block.cloneNode(true);
+            let block3 = block.cloneNode(true);
+            let block4 = block.cloneNode(true);
+
+            colors.forEach(function (j) {
+                let outer = document.createElement("i");
+                outer.classList.add("jel");
+                outer.classList.add("jel-" + v);
+                outer.classList.add("jel-szin-" + j);
+                outer.setAttribute("title", ".jel jel-" + v + " jel-szin-" + j.name);
+
+                let outer2 = outer.cloneNode(true);
+                let outer3 = outer.cloneNode(true);
+                let outer4 = outer.cloneNode(true);
+
+                block.appendChild(outer);
+
+                outer2.classList.add("jel-nincsarnyek");
+                outer2.setAttribute("title", ".jel jel-" + v + " jel-szin-" + j.name + " jel-nincsarnyek");
+                block2.appendChild(outer2);
+
+                outer3.classList.add("jel-keret");
+                outer3.classList.add("jel-nincsarnyek");
+                outer3.setAttribute("title", ".jel jel-" + v + " jel-szin-" + j.name + " jel-nincsarnyek jel-keret");
+                block3.appendChild(outer3);
+
+                outer4.classList.add("jel-nincsterkoz");
+                outer4.classList.add("jel-nincsarnyek");
+                outer4.setAttribute("title", ".jel jel-" + v + " jel-szin-" + j.name + " jel-nincsarnyek jel-nincsterkoz");
+                block4.appendChild(outer4);
+            });
+
+            plain.appendChild(block);
+            noshadow.appendChild(block2);
+            bordered.appendChild(block3);
+            nopadding.appendChild(block4);
+        });
+    };
+
+    var signNames = [];
+    fetch("build/turistajelek-latest.css", {headers: {"Content-Type": "application/json; charset=utf-8"}})
+        .then(res => res.text())
+        .then(responseCont => {
+            const regex = /\.jel\.jel\-(.*?)\:before/g;
+            const returnAarray = [...responseCont.matchAll(regex)];
+            returnAarray.forEach(function (v) {
+                signNames.push(v[1]);
+            });
+            renderNodes(signNames, colors);
+        });
+</script>
+</body>
+</html>
