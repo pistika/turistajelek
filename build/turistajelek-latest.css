@@ -82,7 +82,7 @@
   background-position: center center;
 }
 
-.jel.jel-temple:before, .jel.jel-templom:before, .jel.jel-chapel:before, .jel.jel-képolna:before, .jel.jel-kapolna:before {
+.jel.jel-temple:before, .jel.jel-templom:before, .jel.jel-chapel:before, .jel.jel-kápolna:before, .jel.jel-kapolna:before {
   background: url("data:image/svg+xml; utf8, <svg version='1.1' baseProfile='tiny' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='55px' height='45px' viewBox='0 0 55 45' xml:space='preserve'><path fill-rule='evenodd' fill='white' d='M0,45V0h55v45H0z M39,19v-7h-7V5h-8v7h-7v7h7v8.68l-7.996,12.313h24L32,27.665V19H39z'/></svg>");
   background-size: cover;
   background-position: center center;
@@ -112,7 +112,7 @@
   background-position: center center;
 }
 
-.jel.jel-ski:before, .jel.jel-skitour:before, .jel.jel-situra:before {
+.jel.jel-ski:before, .jel.jel-skitour:before, .jel.jel-sítura:before, .jel.jel-situra:before {
   background: url("data:image/svg+xml; utf8, <svg version='1.1' baseProfile='tiny' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='55px' height='45px' viewBox='0 0 55 45' xml:space='preserve'><path fill-rule='evenodd' fill='white' d='M0,45V0h55v45H0z M43.057,14.722l-7.778-7.778L27.5,14.722l-7.778-7.778l-7.778,7.778 l7.778,7.778l-7.778,7.778l7.778,7.778l7.778-7.778l7.778,7.778l7.778-7.778L35.278,22.5L43.057,14.722z'/></svg>");
   background-size: cover;
   background-position: center center;
@@ -130,7 +130,7 @@
   background-position: center center;
 }
 
-.jel.jel-stripe:before, .jel.jel-band:before, .jel.jel-line:before, .jel.jel-csik:before, .jel.jel-vonal:before, .jel.jel-sav:before {
+.jel.jel-stripe:before, .jel.jel-band:before, .jel.jel-line:before, .jel.jel-csik:before, .jel.jel-vonal:before, .jel.jel-sáv:before, .jel.jel-sav:before {
   background: url("data:image/svg+xml; utf8, <svg version='1.1' baseProfile='tiny' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='55px' height='45px' viewBox='0 0 55 45' xml:space='preserve'><path fill-rule='evenodd' fill='white' d='M0,45V31h55v14H0z M0,0h55v14H0V0z'/></svg>");
   background-size: cover;
   background-position: center center;

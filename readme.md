@@ -1,6 +1,6 @@
 <p align="center">
 <br><br>
-<a href="https://github.com/pistika/turistajelek"><img src="assets/svg/logo_bg.svg" alt="Logo" width="200" /></a>
+<a href="https://github.com/pistika/turistajelek"><img src="assets/img/logo.png" alt="Logo" width="250" /></a>
 </p>
 
 <h2 align="center" align="center">Túristajelek, Hungarian Trail Signs</h2>
