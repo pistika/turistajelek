@@ -1,10 +1,10 @@
 <p align="center">
 <br><br>
-<a href="https://github.com/pistika/turistajelek"><img src="assets/img/logo.png" alt="Logo" width="250" /></a>
+<a target="_blank" href="https://github.com/pistika/turistajelek"><img src="assets/img/logo.png" alt="Logo" width="250" /></a>
 </p>
 
 <h2 align="center" align="center">Túristajelek, Hungarian Trail Signs</h2>
-<p align="center">Add trail signs to your html content. These are small inline SVG-s that are added to your content with a single CSS file.<br><br>Just add a few classes and have all the signs in all the colors that you'd ever need.</p>
+<p align="center">Add trail signs to your html content. These are small inline SVG-s that are added to your content with a single CSS file.<br><br>Just add a few classes and have all the signs in all the colors that you'd ever need.<br><br><a href="https://pistika.github.io/turistajelek/" target="_blank">Check it out here!</a></p>
 
 <!-- GETTING STARTED -->
 ### Usage
@@ -114,12 +114,16 @@ Bigger version. This will make it 1.5em tall.
 <img src="assets/img/screenshot.png" alt="Screenshot" />
 </p>
 
-### Modifying
+### Customizing
 
 1. Download the -latest.scss
 2. Modify to your needs
 3. Build / compile
 4. Profit
+
+### Todos
+
+- I know there are some missing signs, mostly region and event specific ones. I'll try to trace and update all of them as quickly as I'm able to.
     
     
 ## Contributing
