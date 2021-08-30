@@ -3,7 +3,7 @@
 <a target="_blank" href="https://github.com/pistika/turistajelek"><img src="assets/img/logo.png" alt="Logo" width="250" /></a>
 </p>
 
-<h2 align="center" align="center">Túristajelek, Hungarian Trail Signs</h2>
+<h2 align="center" align="center">Turistajelek, Hungarian Trail Signs</h2>
 <p align="center">Add trail signs to your html content. These are small inline SVG-s that are added to your content with a single CSS file.<br><br>Just add a few classes and have all the signs in all the colors that you'd ever need.<br><br><a href="https://pistika.github.io/turistajelek/" target="_blank">Check it out here!</a></p>
 
 <!-- GETTING STARTED -->
