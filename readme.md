@@ -50,25 +50,25 @@ The basic code must contain 3 class names:
 
 | Icon | Name | Class(es) |
 |------|------|-----------|
+|<img src="assets/svg/vonal_bg.svg" height="32" />|Sáv / Line|`.jel-sav .jel-sáv .jel-vonal .jel-csik .jel-csík .jel-line .jel-band .jel-stripe`|
+|<img src="assets/svg/kereszt_bg.svg" height="32" />|Kereszt / Cross|`.jel-kereszt .jel-plusz .jel-cross .jel-plus`|
+|<img src="assets/svg/csucs_bg.svg" height="32" />|Csúcs / Summit|`.jel-csucs .jel-csúcs .jel-haromszog .jel-háromszög .jel-top .jel-triangle .jel-summit`|
+|<img src="assets/svg/telep_bg.svg" height="32" />|Település / Settlement|`.jel-telep .jel-telepules .jel-település .jel-settlement .jel-education`|
+|<img src="assets/svg/forras_bg.svg" height="32" />|Forrás / Source|`.jel-forras .jel-forrás .jel-source .jel-dot`|
 |<img src="assets/svg/barlang_bg.svg" height="32" />|Barlang / Cave|`.jel-barlang .jel-cave`|
-|<img src="assets/svg/bicikli_bg.svg" height="32" />|Kerékpár / Bike|`.jel-bicikli .jel-bike`|
-|<img src="assets/svg/csucs_bg.svg" height="32" />|Csúcs / Summit|`.jel-csucs .jel-csúcs .jel-haromszog .jel-háromszög .jel-top .jel-triangle`|
+|<img src="assets/svg/rom_bg.svg" height="32" />|Rom / Ruin|`.jel-rom .jel-ruin .jel-L`|
+|<img src="assets/svg/kapolna_bg.svg" height="32" />|Kápolna / Chapel|`.jel-kapolna .jel-kápolna .jel-templom .jel-chapel .jel-temple`|
 |<img src="assets/svg/emlekmu_bg.svg" height="32" />|Emlékmű / Memorial|`.jel-emlek .jel-emlék  .jel-emlekmu .jel-emlékmű .jel-memorial .jel-monument`|
-|<img src="assets/svg/forras_bg.svg" height="32" />|Forrás / Source|`.jel-forras .jel-forrás .jel-source`|
+|<img src="assets/svg/pecset_bg.svg" height="32" />|Pecsét / Stamp|`.jel-pecset .jel-pecsét .jel-kód .jel-kod .jel-stamp .jel-code`|
+|<img src="assets/svg/kor_bg.svg" height="32" />|Kör / Circle|`.jel-kor .jel-kör .jel-körtúra .jel-kortura .jel-circle .jel-round`|
+|<img src="assets/svg/tan_bg.svg" height="32" />|Tanösvény / Education|`.jel-tan .jel-tanosveny .jel-tanösvény .jel-edu .jel-education`|
+|<img src="assets/svg/bicikli_bg.svg" height="32" />|Kerékpár / Bike|`.jel-bicikli .jel-kerekpar .jel-kerékpár .jel-bike .jel-bicycle`|
+|<img src="assets/svg/situra_bg.svg" height="32" />|Sítúra / Skitour|`.jel-situra .jel-sítúra .jel-ski .jel-skitour`|
+|<img src="assets/svg/veszely_bg.svg" height="32" />|Veszély / Danger|`.jel-veszely .jel-veszély .jel-vigyazz .jel-vigyázz .jel-danger .jel-warning`|
 |<img src="assets/svg/gyongy_bg.svg" height="32" />|Gyöngy / Pearl|`.jel-gyongy .jel-gyöngy .jel-pearl`|
 |<img src="assets/svg/jakab_bg.svg" height="32" />|Jakab / Santiago|`.jel-jakab .jel-santiago .jel-pearl`|
-|<img src="assets/svg/kapolna_bg.svg" height="32" />|Kápolna / Chapel|`.jel-kapolna .jel-kápolna .jel-templom .jel-chapel .jel-temple`|
-|<img src="assets/svg/kereszt_bg.svg" height="32" />|Kereszt / Cross|`.jel-kereszt .jel-cross`|
-|<img src="assets/svg/kor_bg.svg" height="32" />|Kör / Circle|`.jel-kor .jel-kör .jel-pont .jel-circle .jel-round .jel-dot`|
 |<img src="assets/svg/maria_bg.svg" height="32" />|Mária / Maria|`.jel-maria .jel-mária`|
 |<img src="assets/svg/mz_bg.svg" height="32" />|Magyar Zarándokút / Hungarian Pilgrimage|`.jel-mz .jel-magyarzarandok .jel-hungarianpilgrim .jel-hp .jel-mzarandok .jel-hpilgrim`|
-|<img src="assets/svg/pecset_bg.svg" height="32" />|Pecsét / Stamp|`.jel-pecset .jel-pecsét .jel-kód .jel-kod .jel-stamp .jel-code`|
-|<img src="assets/svg/rom_bg.svg" height="32" />|Rom / Ruin|`.jel-rom .jel-ruin`|
-|<img src="assets/svg/situra_bg.svg" height="32" />|Sítúra / Skitour|`.jel-situra .jel-sítúra .jel-ski .jel-skitour`|
-|<img src="assets/svg/tan_bg.svg" height="32" />|Tanösvény / Education|`.jel-tan .jel-tanosveny .jel-tanösvény .jel-edu .jel-education`|
-|<img src="assets/svg/telep_bg.svg" height="32" />|Település / Settlement|`.jel-telep .jel-telepules .jel-település .jel-settlement .jel-education`|
-|<img src="assets/svg/veszely_bg.svg" height="32" />|Veszély / Danger|`.jel-veszely .jel-veszély .jel-vigyazz .jel-vigyázz .jel-danger .jel-warning`|
-|<img src="assets/svg/vonal_bg.svg" height="32" />|Sáv / Line|`.jel-sav .jel-sáv .jel-vonal .jel-csik .jel-csík .jel-line .jel-band .jel-stripe`|
 |<img src="assets/svg/unknown_bg.svg" height="32" />|Alapértelmezett, ismeretlen / Default, unknown| - |
   
   
